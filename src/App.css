@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+.main{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.product_place{
+width: 960px;
+height: 200px;
+border-radius: 24px;
+box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.1), 0px 2px 4px rgba(0, 0, 0, 0.1);
+padding: 32px 24px;
+margin-bottom: 46px;
+display: flex;
+position: relative;
+}
+.topPart{
+    width: 960px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: baseline;
+    gap: 15px;
+}
+.inputTop{
+    height: 64px;
+    width: 90%;
+    margin-bottom: 42px;
+    border-radius: 25px;
+    border: 1px solid grey;
+    margin-top: 25px;
+    text-indent: 15px;
+    font-size: 1.5em;
+    /* padding: 15px; */
+
+}
+.left{
+    width: 136px;
+    height: 136px;
+
+}
+#img{
+    width: 136px;
+    height: 136px;
+    margin-top: 20px;
+}
+.product_place div{
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+height: 100%;
+
+
+}
+.mid{
+    width: 595px;
+    
+}
+.mid span{
+    margin-left: 24px;
+}
+.right{
+    width: 204px;
+    
+}
+.product_title{
+font-weight: 700;
+font-size: 18px;
+}
+.product_description{
+    font-weight: 400;
+    font-size: 18px;
+}
+.product_category{
+    font-weight: 500px;
+    font-size: 12px;
+}
+
+.right{
+    align-items: center;
+    justify-content: center !important;
+    border-left: 1px solid #E8E8E8;;
+}
+button{
+    width: 156px;
+    height: 40px;
+    background-color: #1ab76c;
+    color: white;
+    border-radius: 38px;
+    font-weight: 500;
+    font-size: 16px;
+    border: none;
+    margin: 12px 0;
+
+}
+.rating{
+    color:#1ab76c ;
+    font-weight: 600;
+    font-size: 32px;
+}
+.inform{
+    position: absolute;
+    top: 0;
+    left: 0px;
+    width: 80px;
+    height: 40px !important;
+    border-radius: 24px 0 24px 0;
+    background-color: green;
+    color: white;
+    display: flex;
+    flex-direction: row !important;
+    justify-content: center !important;
+    align-items: center;
+    font-size: 10px;
+    font-weight: 700; 
+}
+.inform span:nth-child(2){
+    margin: 0 5px;
+}
+#price{
+    font-weight: 400;
+    font-size: 12px;
+    color: #657DD0;
+    width: 55px;
+    height: 23px;
+    border-radius: 16px;
+    background-color: #f2f5ff;
+    padding: 4px 8px;
+}
